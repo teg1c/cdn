@@ -1,0 +1,291 @@
+:root {
+	--margin: 10px;
+	--borderRadius: 5px;
+}
+
+.theme-card .diy-picture,
+.theme-card .diy-navs,
+.theme-card .diy-activity,
+.theme-card .diy-notice,
+.theme-card .diy-selective,
+.theme-card .diy-bargain-activity,
+.theme-card .diy-wamiai-goods .diy-waimai-goods-list-box,
+.theme-card .diy-wamiai-goods .diy-waimai-food-list-onerow-box,
+.theme-card .diy-wamiai-goods .diy-waimai-goods-list-threerow,
+.theme-card .diy-wamiai-goods .diy-waimai-goods-list-threerow .goods-list,
+.theme-card .diy-waimai-store-box .waimai-store-item,
+.theme-card .diy-selftake-stores,
+.theme-card .diy-waimai-store-brand,
+.theme-card .diy-graphic,
+.theme-card .diy-listmenu,
+.theme-card .diy-urltags,
+.theme-card .diy-hottags,
+.theme-card .diy-svip-guide,
+.theme-card .diy-haodian-group,
+.theme-card .diy-tongcheng-tiezi,
+.theme-card .diy-gohome-activity,
+.theme-card .diy-waimai-goods-tab,
+.theme-card .diy-memberHeader,
+.theme-card .diy-mobile-bind,
+.theme-card .diy-blockNav,
+.theme-card .diy-member-swiper,
+.theme-card .diy-store-info,
+.theme-card .diy-store-onsale,
+.theme-card .diy-store-evaluate,
+.theme-card .diy-tags,
+.theme-card .diy-scene-shopinfo,
+.theme-card .diy-scene-address,
+.theme-card .diy-yinsihao,
+.theme-card .diy-scene-extra-fee,
+.theme-card .diy-scene-choose,
+.theme-card .diy-copyright,
+.theme-card .diy-img-card,
+.theme-card .diy-banner,
+.theme-card .diy-line,
+.theme-card .diy-uploadImg,
+.theme-card .diy-scene-text,
+.theme-card .diy-mealRedpacket,
+.theme-card .diy-buttons,
+.theme-card .diy-cube,
+.theme-card .diy-title,
+.theme-card .diy-picturew,
+.theme-card .diy-waimai-goods-activity,
+.theme-card #order-index .list-block,
+.theme-card #order-index .order-container,
+.theme-card #orderDetail .order-state,
+.theme-card #orderDetail .order-details,
+.theme-card #orderDetail .other-info,
+.theme-card #new-detail .order-state,
+.theme-card #new-detail .order-details,
+.theme-card #new-detail .other-info,
+.theme-card #address-post .list,
+.theme-card #paotui-order .van-cell-group,
+.theme-card #paotui-order .order-item,
+.theme-card #paotui-order-detail .order-state,
+.theme-card #paotui-order-detail .order-details,
+.theme-card #paotui-order-detail .other-info,
+.theme-card #pay .pay-list,
+.theme-card #category .swiper,
+.theme-card #category .cate-list-wrap,
+.theme-card .diy-tab-navigator
+{
+	margin: var(--margin) !important;
+	border-radius: var(--borderRadius);
+	overflow: hidden;
+}
+.theme-card .diy-wamiai-goods .diy-waimai-goods-list-threerow .goods-list{
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.theme-card .diy-selective .selective-info .selective-item img,
+.theme-card .diy-waimai-store-brand .store-brand-bgimg .store-brand-list .store-brand-item .store-brand-inner img,
+.theme-card .diy-waimai-store-box .waimai-store-item .hot-box .hot-box-item .hot-t
+{
+	border-radius: var(--borderRadius) !important;
+}
+.theme-card .diy-notice .border-1px-t,
+.theme-card #orderDetail .order-state.border-1px-tb,
+.theme-card #orderDetail .order-details-con.border-1px-t,
+.theme-card #orderDetail .other-info .border-1px-tb,
+.theme-card #new-detail .order-state.border-1px-tb,
+.theme-card #new-detail .order-details-con.border-1px-t,
+.theme-card #new-detail .other-info .border-1px-tb,
+.theme-card #paotui-order-detail .order-state.border-1px-tb,
+.theme-card #paotui-order-detail .order-details-con.border-1px-t,
+.theme-card #paotui-order-detail .other-info .border-1px-tb
+{
+	background-image: none!important;
+}
+/*.theme-card .diy-wamiai-goods .goods-item{
+	margin: var(--margin) !important;
+	border-radius: var(--borderRadius);
+	overflow: hidden;
+}*/
+.theme-card .waimai-store-item-list{
+	background-color: inherit!important;
+}
+.theme-card .diy-waimai-store-box .waimai-store-item{
+	background-color: #fff;
+}
+.theme-card .diy-waimai-store-box .waimai-store-item.border-1px-b{
+	background-image: none!important;
+}
+.theme-card .diy-store-button-tab{
+	background-color: transparent!important;
+	padding-top: 0px!important;
+	margin-top: 20px;
+}
+.theme-card .popup-search .diy-store-button-tab{
+	background-color: #fff!important;
+	margin-top: 15px;
+}
+.theme-card .diy-store-list>.diy-store-button-tab.border-1px-b{
+	background-image: none!important;
+}
+.theme-card .diy-store-button-tab.van-hairline--bottom::after {
+	display: none;
+}
+.theme-card .diy-store-other-condition{
+	padding: 0px 10px!important;
+	background-color: transparent;
+}
+.theme-card .diy-store-other-condition .other-condition-item{
+	background-color: #fff!important;
+}
+.theme-card .diy-store-info,
+.theme-card .diy-store-onsale,
+.theme-card .diy-store-evaluate,
+.theme-card .diy-scene-choose
+{
+	width: auto!important;
+}
+.theme-card #address .list-container{
+	padding-left: 0px;
+}
+.theme-card #address .list{
+	background-color: #f5f5f5!important;
+}
+.theme-card #address .list-container .item{
+	margin: var(--margin) !important;
+	border-radius: var(--borderRadius);
+	overflow: hidden;
+	background-color: #fff;
+	padding-left: 15px;
+}
+.theme-card #goods-store .image-box{
+	border-radius: 5px;
+	overflow: hidden;
+}
+.theme-card #store-cart .cart{
+	left: 15px;
+	right: 15px;
+	bottom: 10px;
+	width: auto;
+	border-radius: 100px;
+}
+.theme-card #store-cart .cart .cart-btns{
+	border-radius: 0 100px 100px 0;
+	overflow: hidden;
+}
+.theme-card #store-cart .cart-popup{
+	bottom: 0px!important;
+	padding-bottom: 80px;
+	border-radius: 15px 15px 0 0;
+}
+.theme-card #store-cart .cartTipContainer {
+	width: auto;
+	right: 25px;
+	left: 25px;
+	border-radius: 10px 10px 0 0;
+}
+.theme-card .goods-container .van-col{
+	padding-bottom: 80px!important;
+}
+.theme-card #goods-store .height-50{
+	height: 80px;
+	display: block;
+}
+
+.theme-card .options-dialog .muti-choose .muti-cart-oprt{
+	margin-top: 20px!important;
+}
+.theme-card .options-dialog .muti-choose .muti-cart-oprt .add-food{
+	line-height: 1!important;
+	height: auto!important;
+}
+.theme-card #goods-handle .from-cart .van-icon,
+.theme-card #goods-handle .foodop .van-icon,
+.theme-card .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon,
+.theme-card .options-dialog .muti-choose .muti-cart-oprt .remove-food .remove
+{
+	width: 23px!important;
+	height: 23px!important;
+	text-align: center!important;
+	line-height: 23px!important;
+	font-weight: bold!important;
+	border-radius: 7px!important;
+	position: relative!important;
+	font-size: 14px!important;
+}
+.theme-card #goods-handle .from-cart .num,
+.theme-card #goods-handle .foodop .num,
+.theme-card .options-dialog .muti-choose .muti-cart-oprt .food-num
+{
+	height: 23px!important;
+	line-height: 23px!important;
+	margin: 0 10px;
+	font-size: 14px;
+	padding-top: 0px;
+}
+.theme-card #store-cart .cart-dtl-item-inner .cart-dtl-oprt{
+	margin-top: 11px;
+}
+.theme-card #goods-handle .foodop .spec {
+	font-size: 12px;
+	border-radius: 7px;
+	font-weight: 700;
+	padding: 0 8px;
+	position: relative;
+	height: 22px;
+	line-height: 22px;
+}
+.theme-card .options-popup{
+	border-radius: 10px;
+}
+.theme-card .options-dialog .muti-cont .muti-sec .muti-choice div {
+	border-radius: 5px!important;
+}
+.theme-card #goods-store .store-tabs .pindan-item {
+	border-radius: 5px!important;
+}
+.theme-card .buy-svip.van-popup{
+	border-radius: 10px;
+}
+.theme-card .van-button--large{
+	border-radius: 10px!important;
+}
+.theme-card .van-goods-action-button--first {
+	border-top-left-radius: 999px!important;
+	border-bottom-left-radius: 999px!important;
+}
+.theme-card .van-goods-action-button--last {
+	border-top-right-radius: 999px!important;
+	border-bottom-right-radius: 999px!important;
+}
+.theme-card .tag,
+.theme-card .diy-waimai-store-box .waimai-store-item .content-right .item-min-delivery-right-wrap .zhunshibao,
+.theme-card .diy-waimai-stores-tab .stores-tab-list .store-tab-item .content-right .store-min-delivery .store-min-delivery-right-wrap .zhunshibao
+{
+	border-radius: 2px;
+}
+.theme-card .image-square {
+	border-radius: 5px;
+	overflow: hidden;
+}
+.theme-card #store-home .diy-store-operation+div
+{
+	margin-top: 0px!important;
+}
+.theme-card .diy-store-operation,
+.theme-card .diy-store-coupon
+{
+	padding-top: 0px!important;
+}
+.theme-card .diy-store-coupon .coupon-item{
+	margin-bottom: 10px!important;
+}
+.theme-card #order-create .content-scroll>div,
+.theme-card #order-create .content-scroll .delivery-info .delivery-mode,
+.theme-card #order-create .content-scroll .delivery-info .delivery-mode-box,
+.theme-card #order-create .content-scroll .delivery-info .delivery-mode-box .delivery-mode-item,
+.theme-card #order-create .content-scroll .delivery-info .delivery-mode li.active,
+.theme-card #order-create .content-scroll .plateform-box .plateform-inner>div,
+.theme-card #order-create .content-scroll .plateform-box .plateform-inner>div div:last-child,
+.theme-card #order-create .content-scroll .order-food>div:last-child,
+.theme-card #order-create .content-scroll .order-food>div:last-child>div,
+.theme-card #order-create .content-scroll .order-region>div,
+.theme-card #order-create .content-scroll .order-region>div div:first-child,
+.theme-card #order-create .content-scroll .order-region>div div:last-child
+{
+	border-radius: var(--borderRadius);
+}

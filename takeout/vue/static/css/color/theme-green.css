@@ -1,0 +1,364 @@
+:root {
+	--color: #0CD6A6;
+	--bgcolor: #0CD6A6;
+	--text-color: #ffffff;
+	--linear-from: #0CD6A6;
+	--linear-to: #05D6A2;
+	--rgb: rgb(12, 214, 166);
+	--rgba-5: rgba(12, 214, 166, .5);
+}
+
+/*文字颜色和背景*/
+.theme-green #order-status-warpper .order-status-warpper,
+.theme-green .diy-selective .selective-tab .lang-select,
+.theme-green #login .list-block .content-padded .button-login,
+.theme-green #forget .list-block .content-padded .button-register,
+.theme-green .diy-waimai-food-list-onerow-box .item-list .price-buybtn .buy-btn,
+.theme-green #address .add .van-icon-add,
+.theme-green #my-comment .comment-header,
+.theme-green #recharge .recharge .buttons .content-block-a,
+.theme-green #order-address .address-btn,
+.theme-green #order-cart .footer-group .button,
+.theme-green #order-comment .content .save-btn .van-button,
+.theme-green #order-create .van-tag--danger,
+.theme-green #pay .save-btn .van-button,
+.theme-green #store-assign-detail .to-store,
+.theme-green #store-assign-detail .cancel,
+.theme-green #store-assign .operation .operation-item.active,
+.theme-green #store-assign .submit,
+.theme-green #store-comment .comment-grade .grade-item.active,
+.theme-green #store-info .rest-text .allocation-icon,
+.theme-green #store-paybill .content .list-block .confirm .submit,
+.theme-green #store-pindan .content .cart .cart-btn,
+.theme-green #store-share .bar-tab .bar-tab-a,
+.theme-green #deliveryCard-exchange .deliveryCard-button,
+.theme-green #deliveryCard-power .card-button .button-round,
+.theme-green #gohome-comment .basic-info .delivery-title,
+.theme-green #kanjia-detail .goods-info .timer span,
+.theme-green #kanjia-detail .progress .progress-inner .now-price,
+.theme-green #kanjia-record .content .record-item .timer span,
+.theme-green #pintuan-detail .goods-info .timer span,
+.theme-green #pintuan-share .take-info .timer span,
+.theme-green #seckill-detail .goods-info .timer span,
+.theme-green #tiezi-item .tiezi-item .tag-cate,
+.theme-green #tongcheng-detail .detail .tag-cate,
+.theme-green .diy-tongcheng-tiezi .diy-tongcheng-tiezi-item .diy-tongcheng-userinfo-right .tag-cate,
+.theme-green #vip-card-bag .nearby-store-item .join,
+.theme-green #kabao-join .btn-join,
+.theme-green #kefu-index .chat-list .del-chat,
+.theme-green #kefu-index .chat-list .chat-item .item-inner .not-read,
+.theme-green #kefu-chat .chatlog .log-item.right .detail .text,
+.theme-green #estore-order .create,
+.theme-green #store-setting .content .header,
+.theme-green #reserve-index .content .order-time ul li.active,
+.theme-green #spread-index1 .link-group .invite,
+.theme-green #spread-getcash-application .content .tab .button-fill,
+.theme-green #finance-account .account-title .account-group .bank.active,
+.theme-green #finance-account .account-title .account-group .alipay.active,
+.theme-green #spread-commission .content .detail,
+.theme-green #spread-commission .content .tab .button-fill,
+.theme-green #store-commission .content .detail,
+.theme-green #store-commission .content .tab .button-fill,
+.theme-green #failed-tips .wrapper .link,
+.theme-green #goods-store .tab-item-2 .cate-total,
+.theme-green #goods-store .tab-item-1 .cate-total,
+.theme-green #store-cart .cart .cart-tips .cart-icon .cart-num,
+.theme-green #goods-video .btn-group .btn-item .goods-num
+{
+	color: var(--text-color);
+	background-color: var(--bgcolor);
+}
+/*文字颜色*/
+.theme-green #order-index .content .order-container .order-inner .goods-info .col-25 .status.no-pay,
+.theme-green .diy-selective .selective-tab .lang-select .lang-item.active,
+.theme-green #home-allcategory .tab-list .tab-item.active,
+.theme-green #home-allcategory .tab-list .tab-item.active .category-num,
+.theme-green #help .service .service-container .icon,
+.theme-green #home-location .content .search-header-wrap .search-header .van-search__action,
+.theme-green #search .search-header .search-btn,
+.theme-green #searchResult .search-header .search-btn,
+.theme-green #index-copy .content .coupon-list .coupon-item-bottom .to-use,
+.theme-green #coupon .coupon-item .left .coupon-detail .coupon-title,
+.theme-green #coupon .coupon-more .coupon-more-a,
+.theme-green #coupon .coupon-item .right .price,
+.theme-green #red-packet .redPacket-info .col-50 .redPacket-title,
+.theme-green #red-packet .redPacket-info .col-50 .price,
+.theme-green #address-location .content .location-list .list-item .icon,
+.theme-green #address-location .content .location-list .list-item.active .name,
+.theme-green .van-button.van-dialog__confirm,
+.theme-green #deliveryer-reward .reward .reward-item.active .reward-fee,
+.theme-green #order-create .delivery-mode .delivery.active,
+.theme-green #order-create .plateform-inner .addrress-select .van-cell__title,
+.theme-green .popup-time .left .date-item.active,
+.theme-green .popup-time .right .van-cell.active,
+.theme-green .popup-time .right .van-icon.active,
+.theme-green #order-note .add-invoice,
+.theme-green #store-assign-detail .title,
+.theme-green #store-assign-detail .wait-number,
+.theme-green #store-assign-detail .number,
+.theme-green #store-assign .title,
+.theme-green #store-comment .store-tabs .tab-item.active,
+.theme-green #store-comment .cmt-detail-info-receive, .cmt-detail-info-ship, .cmt-detail-info-rate,
+.theme-green #store-info .store-tabs .tab-item.active,
+.theme-green #store-info .report,
+.theme-green #goods-store .store-tabs .tab-item.active,
+.theme-green #goods-store .not-in-time-popup .popup-bottom,
+.theme-green #goods-detail .content .praise .rate,
+.theme-green #goods-search .search-header .search-btn,
+.theme-green #deliveryCard-apply .block-info div span,
+.theme-green .haodian-filter .filter-item.active,
+.theme-green .tab-group .tab-item.active,
+.theme-green #haodian-search .search-header .search-btn,
+.theme-green #haodian-searchResult .search-header .search-btn,
+.theme-green #kanjia-detail .van-goods-action .van-goods-action-icon.favorite,
+.theme-green #pintuan-share .step-item .step-title.active,
+.theme-green #tongcheng-category .categorys-wrap .cate-active,
+.theme-green #tongcheng-search .search-header .search-btn,
+.theme-green .diy-tongcheng-tiezi .diy-tongcheng-tiezi-item .diy-tongcheng-userinfo-right .icon,
+.theme-green #kefu-chat .chatlog .log-item .detail .status.not-read,
+.theme-green #ordergrant-index .content .calendar .titles,
+.theme-green #ordergrant-index .content .calendar .calendar-inner .week .day .grant .icon,
+.theme-green #ordergrant-index .content .reward-container .reward-inner .award .award-list .item.active .days,
+.theme-green #reserve-index .content .order-con .table-list .table-wrap .table-item div,
+.theme-green #store-goods .store-tabs .tab-item.active,
+.theme-green #reserve-yuding .popup-search .search-btn-tab .search-btn-item.active,
+.theme-green #finance-account .account-title .account-group .alipay,
+.theme-green #finance-account .account-title .account-group .bank,
+.theme-green #store-comment .comment-wrap .stat .score-avg,
+.theme-green #goods-video .goods-info .goods-title,
+.theme-green #goods-video .btn-group .store-logo .icon
+{
+	color: var(--color);
+}
+/*背景颜色*/
+.theme-green .van-tabs__line,
+.theme-green #order-pindanbill .content .inner .divide::before,
+.theme-green #order-pindanbill .content .inner .divide::after,
+.theme-green #store-assign-detail .content,
+.theme-green #store-assign-detail .divide::before,
+.theme-green #store-assign-detail .divide::after,
+.theme-green #store-assign .content,
+.theme-green #store-assign .divide::before,
+.theme-green #store-assign .divide::after,
+.theme-green .van-sidebar-item--select::before,
+.theme-green .van-info,
+.theme-green #goods-detail .content .progress .progress-bar .progress-active,
+.theme-green #creditshop-goodsdetail .content .bottom-fixed,
+.theme-green #creditshop-goodsdetail .content .main-scroll .cell-group .cell .cell-text label,
+.theme-green #deliveryCard-index .footer-bar,
+.theme-green #deliveryCard-apply .cart #cart-submit,
+.theme-green .haodian-filter .haodian-search-sign,
+.theme-green #pintuan-share .take-info .avatars .avatar-item .mark,
+.theme-green #kabao-join .card-wrap,
+.theme-green #ordergrant-index .content .reward-container .reward-inner .award .award-list .item.active .circle,
+.theme-green #storebd-index .storebd-title,
+.theme-green #goods-store .tab-item-1.active:before,
+.theme-green #goods-store .tab-item-2.active:before
+{
+	background-color: var(--bgcolor);
+}
+/*文字颜色和过度背景色*/
+.theme-green #order-index .content .order-container .order-inner .store-info .plateform-delivery span,
+.theme-green #deliveryer-reward .deliveryer .plateform,
+.theme-green #order-create .order-food .order-food-title .order-tips-thirpart,
+.theme-green #store-header .header .campaign .text .allocation-icon,
+.theme-green #store-cart .cart .cart-tips .cart-icon.active,
+.theme-green #store-cart .cart .cart-btns .cart-btn-confirm .inner,
+.theme-green #goods-handle .foodop .spec,
+.theme-green #goods-handle .foodop .van-icon-plus,
+.theme-green #goods-handle .from-cart .van-icon-plus,
+.theme-green #goods-store .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon,
+.theme-green #goods-detail .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon,
+.theme-green #goods-video .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon,
+.theme-green #haodian-detail .van-goods-action .btn-share,
+.theme-green #kanjia-index .activity-item .btn.btn-detail,
+.theme-green #kanjia-record .content .record-item .btn.btn-detail,
+.theme-green #pintuan-index .activity-item .btn.btn-detail,
+.theme-green #pintuan-share .take-info .btn-invite,
+.theme-green #pintuan-share .step-item .step-number.active .step-number-inner,
+.theme-green #ordergrant-share .content .order-share-list .order-share-item .col-85 .order .order-goods .goods-item .goods-num,
+.theme-green #table-pindan .content .cart .cart-btn
+{
+	background: linear-gradient(to right, var(--linear-from), var(--linear-to));
+	color: var(--text-color);
+}
+/*文字、边框和背景颜色*/
+.theme-green #address-post .content .list .list-item .sex-item .icon.icon-check,
+.theme-green #address-post .content .list .list-item .tags-list .tags-item.active,
+.theme-green #memberBind .van-button--primary,
+.theme-green #order-address .address-list .address-item .icon.icon-check,
+.theme-green #order-create .plateform-inner .van-icon-plus,
+.theme-green .van-button--danger,
+.theme-green #pay .pay-list .pay-item .icon.icon-check,
+.theme-green #store-comment .read-comment .read-comment-group .icon.icon-check,
+.theme-green #order-create .buy-svip .right .icon-check.active,
+.theme-green #reserve-submit .checkbox .van-icon.checked
+{
+	color: var(--text-color);
+	background-color: var(--bgcolor);
+	border-color: var(--bgcolor);
+}
+/*边框*/
+.theme-green #deliveryer-reward .reward .reward-item.active,
+.theme-green #store-assign-detail .divide .divide-line,
+.theme-green #store-assign .divide .divide-line,
+.theme-green #store-comment .store-tabs .tab-item.active:after,
+.theme-green #store-info .store-tabs .tab-item.active:after,
+.theme-green #goods-store .store-tabs .tab-item.active:after,
+.theme-green #goods-store .title .title-line,
+.theme-green #creditshop-index .creditshop-goods .goods-list .goods-item .exchange .exchange-btn,
+.theme-green .haodian-filter .filter-item.active:after,
+.theme-green .tab-group .tab-item.active:after,
+.theme-green #pintuan-share .step-item.active:before,
+.theme-green #pintuan-share .step-item .step-number.active,
+.theme-green #pintuan-share .take-info .avatars .avatar-item,
+.theme-green #tongcheng-category .categorys-wrap .cate-active:before,
+.theme-green #tongcheng-detail .comment .comment-title:before,
+.theme-green #kabao-join .input-wrap,
+.theme-green #ordergrant-index .content .calendar .calendar-inner .week .day.today:before,
+.theme-green #reserve-index .content .order-con span,
+.theme-green #reserve-index .content .order-con .table-list .table-wrap .table-item,
+.theme-green #store-goods .store-tabs .tab-item.active:after,
+.theme-green #finance-account .account-title .account-group,
+.theme-green #finance-account .account-title .account-group .alipay,
+.theme-green #store-goods .title .title-line
+{
+	border-color: var(--color);
+}
+/*文字、边框*/
+.theme-green #goods-store .store-tabs .tab-item .pindan-item,
+.theme-green #goods-store .options-dialog .muti-cont .muti-sec .muti-choice div.selected,
+.theme-green #goods-detail .options-dialog .muti-cont .muti-sec .muti-choice div.selected,
+.theme-green #goods-video .options-dialog .muti-cont .muti-sec .muti-choice div.selected,
+.theme-green #goods-handle .foodop .van-icon-minus, #goods-handle .from-cart .van-icon-minus,
+.theme-green #goods-store .tag2-list .tag2-item.selected,
+.theme-green #deliveryCard-apply .setmeal-list .setmeal-item.active,
+.theme-green #gohome-comment .tag-item.active,
+.theme-green #kanjia-order-list .order-item .btn-group .btn-item,
+.theme-green #kanjia-order-detail .content .fix-bottom li,
+.theme-green #tiezi-item .tiezi-item .tags .tag-item,
+.theme-green #tongcheng-detail .detail .tags .tag-item,
+.theme-green .diy-tongcheng-tiezi .diy-tongcheng-tiezi-item .tags .tag-item,
+.theme-green #vip-card-bag .nearby-store-item .store-info .power .power-item,
+.theme-green #kabao-join .powers .power-item .icon,
+.theme-green #ordergrant-index .content .reward-container .reward-inner .award .award-list .item.active .text,
+.theme-green #ordergrant-share .content .order-share-list .order-share-item .col-85 .order .other .eorder,
+.theme-green #estore-diy .address .address-item .address-type .type-item.active,
+.theme-green #goods-store .options-dialog .muti-choose .muti-cart-oprt .remove-food div,
+.theme-green #goods-detail .options-dialog .muti-choose .muti-cart-oprt .remove-food div,
+.theme-green #goods-video .options-dialog .muti-choose .muti-cart-oprt .remove-food div
+{
+	color: var(--color);
+	border-color: var(--color);
+}
+
+.theme-green .van-icon-star,
+.theme-green .van-icon-star-o,
+.theme-green #address-location .c-danger,
+.theme-green #deliveryer-reward .c-danger,
+.theme-green #haodian-category .c-danger,
+.theme-green #haodian-index .c-danger,
+.theme-green #haodian-detail .c-danger,
+.theme-green #kanjia-order-list .c-danger,
+.theme-green #kanjia-order-detail .c-danger,
+.theme-green #tongcheng-category .c-danger,
+.theme-green #tongcheng-detail .c-danger,
+.theme-green #kabao-join .c-danger,
+.theme-green #paotui-order .c-danger,
+.theme-green #creditshop-index .creditshop-goods .goods-list .goods-item .exchange .exchange-btn,
+.theme-green #paotui-scene .popup-delivery-time .popup-content .time .time-item.active,
+.theme-green #paotui-scene .popup-goods-weight .weight-value,
+.theme-green #paotui-scene .popup-delivery-time .popup-content .time .time-item .icon
+{
+	color: var(--color) !important;
+}
+
+.theme-green .diy-waimai-store-box .waimai-store-item .content-right .item-min-delivery-right,
+.theme-green .van-submit-bar__button--danger,
+.theme-green #kanjia-detail .progress .progress-inner .bar .bar-inner,
+.theme-green #kanjia-record .content .record-item .progress .progress-inner .bar .bar-inner,
+.theme-green #pintuan-index .activity-item .bar .bar-inner,
+.theme-green #pintuan-share .goods-info .bar .bar-inner,
+.theme-green #seckill-index .activity-item .bar .bar-inner,
+.theme-green #seckill-index .activity-item .btn.btn-detail,
+.theme-green #seckill-detail .van-goods-action .btn-buy
+{
+	background: linear-gradient(to right, var(--linear-from), var(--linear-to));
+}
+.theme-green #deliveryer-reward .content{
+	background: linear-gradient(to bottom, var(--bgcolor), #f5f5f5) no-repeat;
+	background-size: 100% 180px;
+}
+.theme-green #order-create .order-food .order-food-title .order-tips-thirpart::after{
+	border-color: var(--bgcolor) #fff #fff var(--bgcolor);
+}
+.theme-green #order-create .order-food .order-food-title .order-tips-thirpart::before{
+	border-color: #fff var(--bgcolor) var(--bgcolor) #fff;
+}
+.theme-green #order-create .permit-time .icon-vip,.theme-green #order-create .permit-time .icon-security,.theme-green #order-create .permit-time .icon-lock,.theme-green #order-create .permit-time .icon-selectionfill{
+	color: var(--color) !important;
+}
+.theme-green .van-switch--on{
+	background-color: var(--bgcolor) !important;
+}
+.theme-green .agreement-popup .van-nav-bar,
+.theme-green .geolocationfail .btn-location
+{
+	color: var(--text-color) !important;
+	background-color: var(--bgcolor) !important;
+}
+.theme-green .van-radio__icon--checked .van-icon {
+	background-color:  var(--bgcolor)!important;
+	border-color: var(--bgcolor)!important;
+}
+.theme-green .bg-danger{
+	color: var(--text-color) !important;
+	background-color: var(--bgcolor) !important;
+	border-color: var(--bgcolor) !important;
+}
+.theme-green #order-pindanbill .content{
+	background-color: var(--bgcolor);
+	background: linear-gradient(to bottom, var(--bgcolor), var(--linear-to));
+}
+.theme-green .van-tab.van-tab--active{
+	color: var(--color) !important;
+}
+.theme-green .van-tabs__line{
+	background-color: var(--bgcolor) !important;
+}
+.theme-green #kanjia-detail .progress .progress-inner .now-price:before{
+	border-color: var(--bgcolor) transparent transparent;
+}
+.theme-green .right-btn .btn-item{
+	background-color: var(--rgba-5);
+	color: var(--text-color);
+}
+.theme-green #kanjia-detail .progress .progress-inner .bar,
+.theme-green #kanjia-record .content .record-item .progress .progress-inner .bar,
+.theme-green #pintuan-index .activity-item .bar,
+.theme-green #pintuan-share .goods-info .bar,
+.theme-green #seckill-index .activity-item .bar
+{
+	background-color: var(--rgba-5);
+}
+.theme-green #pintuan-share .take-info .avatars .avatar-item.empty{
+	background-color: var(--rgba-5);
+	color: var(--color) !important;
+}
+.theme-green #ordergrant-index .content .banner,
+.theme-green #spread-rank .content .banner
+{
+	background: var(--bgcolor);
+	color: var(--text-color);
+}
+.theme-green .van-button--danger,
+.theme-green #paotui-scene .diy-scene-choose .choose-options .option-item.active
+{
+	color: var(--text-color) !important;
+	background-color: var(--bgcolor) !important;
+	border-color: var(--bgcolor) !important;
+}
+.theme-green #spread-index1 .header-info .spreader-info .group-name{
+	color: var(--color);
+}
+

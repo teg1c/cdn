@@ -1,0 +1,190 @@
+/*red   255,52,95   #FF3464*/
+/*green 10,218,155  #0CD6A6*/
+
+.shop-green #public-header .van-nav-bar{
+	background-color: #0CD6A6!important;
+}
+.shop-green #goods-handle .van-icon-minus{
+	color: #0CD6A6!important;
+	border-color: #0CD6A6!important;
+}
+.shop-green #goods-handle .van-icon-plus{
+	background: linear-gradient(to right, #0FD3B0, #04E382) !important;
+}
+.shop-green .c-danger{
+	color: #0CD6A6!important;
+}
+.shop-green .van-button--danger{
+	background-color: #0CD6A6!important;
+	border-color: #0CD6A6!important;
+}
+.shop-green #public-footer .van-info{
+	background-color: #0CD6A6!important;
+}
+.shop-green .no-data .target{
+	background-color: #0CD6A6!important;
+}
+.shop-green .search-header .search-btn{
+	color: #0CD6A6!important;
+}
+.shop-green #goods-handle .spec{
+	background: linear-gradient(to right, #0FD3B0, #04E382) !important;
+}
+.shop-green #goods-handle .options-dialog .muti-cont .muti-sec .muti-choice div.selected {
+	border-color: #0CD6A6!important;
+	color: #0CD6A6!important;
+}
+.shop-green #goods-handle .options-dialog .muti-choose .muti-info .muti-price{
+	color: #0CD6A6!important;
+}
+.shop-green #goods-handle .not-in-time-popup .popup-bottom{
+	color: #0CD6A6!important;
+}
+.shop-green #goods-handle .options-dialog .muti-choose .muti-cart-oprt .remove-food div{
+	color: #0CD6A6!important;
+	border-color: #0CD6A6!important;
+}
+.shop-green #goods-handle .move_dot{
+	background: linear-gradient(to right, #0FD3B0, #04E382) !important;
+}
+.shop-green .cartop .num{
+	background-color: #0CD6A6!important;
+}
+.shop-green .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon{
+	background: linear-gradient(to right, #0FD3B0, #04E382) !important;
+}
+.shop-green .options-dialog .muti-cont .muti-sec .muti-choice div.selected{
+	border-color: #0CD6A6!important;
+	color: #0CD6A6!important;
+}
+.shop-green .options-dialog .muti-choose .muti-info .muti-price{
+	color: #0CD6A6!important;
+}
+.shop-green .options-dialog .muti-choose .muti-cart-oprt .remove-food div{
+	border-color: #0CD6A6!important;
+	color: #0CD6A6!important;
+}
+.shop-green .order-container .order-inner .store-info .plateform-delivery span{
+	background: linear-gradient(to right, #0FD3B0, #04E382) !important;
+}
+.shop-green .order-container .order-inner .goods-info .col-25 .status.no-pay{
+	color: #0CD6A6!important;
+}
+.shop-green #order-status-warpper .order-status-warpper{
+	background-color: #0CD6A6!important;
+}
+.shop-green .van-tabs__line{
+	background-color: #0CD6A6!important;
+}
+.shop-green .goods-num .price{
+	color: #0CD6A6!important;
+}
+.shop-green .praise .rate{
+	color: #0CD6A6!important;
+}
+.shop-green #store-cart .cart .cart-tips .cart-icon.active{
+	background-color: #0CD6A6!important;
+}
+.shop-green #store-cart .cart .cart-btns .cart-btn-confirm .inner{
+	background-color: #0CD6A6!important;
+}
+.shop-green .progress .progress-bar .progress-active{
+	background-color: #0CD6A6!important;
+}
+
+
+
+
+
+
+.shop-red #public-header .van-nav-bar{
+	background-color: #FF3464!important;
+}
+.shop-red #goods-handle .van-icon-minus{
+	color: #FF3464!important;
+	border-color: #FF3464!important;
+}
+.shop-red #goods-handle .van-icon-plus{
+	background: linear-gradient(to right, #FF3883, #FF2D2D) !important;
+}
+.shop-red .c-danger{
+	color: #FF3464!important;
+}
+.shop-red .van-button--danger{
+	background-color: #FF3464!important;
+	border-color: #FF3464!important;
+}
+.shop-red #public-footer .van-info{
+	background-color: #FF3464!important;
+}
+.shop-red .no-data .target{
+	background-color: #FF3464!important;
+}
+.shop-red .search-header .search-btn{
+	color: #FF3464!important;
+}
+.shop-red #goods-handle .spec{
+	background: linear-gradient(to right, #FF3883, #FF2D2D) !important;
+}
+.shop-red #goods-handle .options-dialog .muti-cont .muti-sec .muti-choice div.selected {
+	border-color: #FF3464!important;
+	color: #FF3464!important;
+}
+.shop-red #goods-handle .options-dialog .muti-choose .muti-info .muti-price{
+	color: #FF3464!important;
+}
+.shop-red #goods-handle .not-in-time-popup .popup-bottom{
+	color: #FF3464!important;
+}
+.shop-red #goods-handle .options-dialog .muti-choose .muti-cart-oprt .remove-food div{
+	color: #FF3464!important;
+	border-color: #FF3464!important;
+}
+.shop-red #goods-handle .move_dot{
+	background: linear-gradient(to right, #FF3883, #FF2D2D) !important;
+}
+.shop-red .cartop .num{
+	background-color: #FF3464!important;
+}
+.shop-red .options-dialog .muti-choose .muti-cart-oprt .add-food .van-icon{
+	background: linear-gradient(to right, #FF3883, #FF2D2D) !important;
+}
+.shop-red .options-dialog .muti-cont .muti-sec .muti-choice div.selected{
+	border-color: #FF3464!important;
+	color: #FF3464!important;
+}
+.shop-red .options-dialog .muti-choose .muti-info .muti-price{
+	color: #FF3464!important;
+}
+.shop-red .options-dialog .muti-choose .muti-cart-oprt .remove-food div{
+	border-color: #FF3464!important;
+	color: #FF3464!important;
+}
+.shop-red .order-container .order-inner .store-info .plateform-delivery span{
+	background: linear-gradient(to right, #FF3883, #FF2D2D) !important;
+}
+.shop-red .order-container .order-inner .goods-info .col-25 .status.no-pay{
+	color: #FF3464!important;
+}
+.shop-red #order-status-warpper .order-status-warpper{
+	background-color: #FF3464!important;
+}
+.shop-red .van-tabs__line{
+	background-color: #FF3464!important;
+}
+.shop-red .goods-num .price{
+	color: #FF3464!important;
+}
+.shop-red .praise .rate{
+	color: #FF3464!important;
+}
+.shop-red #store-cart .cart .cart-tips .cart-icon.active{
+	background-color: #FF3464!important;
+}
+.shop-red #store-cart .cart .cart-btns .cart-btn-confirm .inner{
+	background-color: #FF3464!important;
+}
+.shop-red .progress .progress-bar .progress-active{
+	background-color: #FF3464!important;
+}
+
